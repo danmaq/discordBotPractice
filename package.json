@@ -1,0 +1,29 @@
+{
+  "name": "scp-040-jp",
+  "version": "0.1.0",
+  "description": "Practice of discord bot.",
+  "license": "MIT",
+  "author": {
+    "name": "Shuhei Nomura (danmaq)",
+    "email": "info@danmaq.com",
+    "url": "https://danmaq.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmaq/discordBotPractice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danmaq/discordBotPractice/issues"
+  },
+  "homepage": "https://github.com/danmaq/discordBotPractice",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=9.5.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "dotenv": "^5.0.1"
+  }
+}
